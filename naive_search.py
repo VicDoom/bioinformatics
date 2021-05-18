@@ -1,5 +1,5 @@
 from str_search import StrSearch
-
+# наивный поиск: тупой перебор сравнения подстроки со строкой (полностью сравниваем паттерн со строкой во всех позициях)
 class Naive_Search(StrSearch):
     def search(self, this):
         print("\nNaive Search...")
